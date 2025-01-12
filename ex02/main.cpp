@@ -8,8 +8,7 @@
 int main( void )
 {
 	Animal **meta = new Animal*[ARRAY_SIZE];
-	Cat *cat = new Cat();
-	Cat *cat2 = new Cat(*cat);
+
 	for (int i = 0; i < (ARRAY_SIZE / 2); i++)
 		meta[i] = new Cat();
 	for (int i = (ARRAY_SIZE / 2); i < ARRAY_SIZE; i++)

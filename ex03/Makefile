@@ -1,4 +1,4 @@
-NAME = Animal
+NAME = Interface
 
 CXX = c++
 
@@ -12,7 +12,7 @@ $%.o		:	%.cpp
 	$(CXX) $(CPPFLAGS) -c $< -o $@
 
 $(NAME)		:	$(OBJS)
-	$(CXX) $(CPPFLAGS) $(SRCS) -o $(NAME)
+	$(CXX) $(CPPFLAGS) $(SRCS) -o $(NAME) -g
 
 all			:	$(NAME)
 

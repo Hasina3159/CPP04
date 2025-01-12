@@ -20,17 +20,17 @@ int main( void )
 	std::cout << j->getType() << " " << std::endl;
 	std::cout << i->getType() << " " << std::endl;
 
-	i   	->makeSound(); //will output the cat sound!
-	j   	->makeSound();
-	meta	->makeSound();
+	i->makeSound();
+	j->makeSound();
+	meta->makeSound();
 
 	std::cout << "WRONG \n" << std::endl;
-	w_a		->makeSound();
-	w_c		.makeSound();
+	w_a->makeSound();
+	w_c.makeSound();
 
 	std::cout << "OK \n" << std::endl;
-	animal	->makeSound();
-	cat 	.makeSound();
+	animal->makeSound();
+	cat.makeSound();
 
 	return 0;
 }

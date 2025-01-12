@@ -1,5 +1,4 @@
-#ifndef BRAIN_H
-# define BRAIN_H
+#pragma once
 
 #include <string>
 
@@ -14,4 +13,3 @@ public:
 	~Brain();
 };
 
-#endif
